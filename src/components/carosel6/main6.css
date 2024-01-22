@@ -1,0 +1,83 @@
+#main6{
+    width: 100%;
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#main6>#title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+
+#main6>#title h1{
+    font-family:'Playfair-Display-Medium' ;
+    font-size: 72px;
+    width: 330px;
+    height: 140px;
+}
+
+#main6>#images{
+    display: flex;
+    text-align: left;
+    gap: 110px;
+    margin-top: 20px;
+}
+
+#main6>#images>.image img{
+    height: 530px;
+    width: 350px;
+    object-fit: cover;
+}
+
+#main6>#images>#image1 img{
+    transform: rotate(2deg);
+}
+
+#main6>#images>#image2{
+    margin-top: 100px;
+}
+
+#main6>#images>#image2 img{
+    transform: rotate(-4deg);
+}
+
+#main6>#images>.image>h2{
+    font-size: 32px;
+    width: 300px;
+    height: 120px;
+    text-align: left;
+    font-family:'Playfair-Display-Medium ';
+    margin-top: 40px;
+}
+
+#main6>#images>.image>p{
+    padding-top:30px ;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#main6>#images>.image button{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-top: 30px;
+    gap: 40px;
+    
+}
+
+#main6>#images>.image hr{
+    width: 175px;
+    border: 1px solid black;
+}
+
+#main6>#images>.image span{
+    font-size: 12px;
+    font-weight: bold;
+}

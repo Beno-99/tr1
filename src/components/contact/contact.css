@@ -1,0 +1,72 @@
+.contact{
+    width: 100%;
+    height: 400px;
+    background-color: #daddc5;
+}
+
+.contact>.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+
+.contact>.main>.texts{
+    text-align: left;
+    width: 300px;
+}
+
+.contact>.main>.texts h1{
+    font-size: 36px;
+    font-family:'Playfair-Display-Medium';
+}
+
+.contact>.main>.texts p{
+    font-family: 'basetica-light';
+}
+
+.contact>.main>.phone-mail{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact>.main>.phone-mail>.phone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Playfair-Display-Medium';
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 200px;
+    height:200px ;
+    padding-bottom: 25px;
+}
+
+.contact>.main>.phone-mail>.phone p{
+    font-size: 40px;
+}
+
+.contact>.main>.phone-mail>.mail{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 1px dashed black;
+    border-radius: 50%;
+    width: 200px;
+    height:200px ;
+    padding-bottom: 25px;
+}
+
+.contact>.main>.phone-mail>.mail p{
+    font-family: 'Playfair-Display-Medium';
+    font-size: 18px;
+}
+

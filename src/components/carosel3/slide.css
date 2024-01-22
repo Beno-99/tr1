@@ -1,0 +1,44 @@
+.slide{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 100%;
+    margin-top: 100px;
+}
+
+
+.slide>.text{
+    width:380px ;
+    height: 205px;
+    text-align: left;
+    margin-right: 150px;
+    margin-top: 260px;
+}
+
+.slide>.text>h3{
+    font-weight:bold;
+    margin-bottom:20px ;
+}
+
+
+.slide>.text>h2{
+    font-family:Playfair-Display-Medium;
+    margin-bottom:20px ;
+    font-size: 54px;
+}
+
+.slide>.text>p{
+    margin-bottom:16px;
+    width: 350px;
+    height: 40px;
+}
+
+
+.slide>.slideShow{
+    width:auto;
+    height: 100%;
+    max-height: 100%;
+    display: flex;
+    padding: 5px;
+}
+

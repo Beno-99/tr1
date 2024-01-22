@@ -1,0 +1,73 @@
+.footer{
+    position: relative;
+    background-color: #f1efec;
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer>.cloud{
+    position: absolute;
+    top: 30px;
+}
+
+.footer>.div-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    top: 55%;
+}
+
+.footer>.div-form>h3{
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.footer>.div-form>h2{
+    color: black;
+    font-size: 48px;
+    font-family:'Playfair-Display-Medium' ;
+    width: 550px;
+}
+
+.footer>.div-form> .form{
+    justify-content:center;
+    align-items: center;
+    width: 470px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 50px;
+
+}
+
+.footer>.div-form>.form input{
+    margin: 10px;
+    outline: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+    color: black;
+}
+
+.footer>.div-form>.form>button{
+    width: 130px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.footer>.div-form>.form>button:hover{
+    background-color: #283a2c;
+    color: white;
+    transition: 0.5s;
+}

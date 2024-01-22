@@ -1,0 +1,31 @@
+.Rate{
+    background-color: #f1efec;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+}
+
+.Rate>.main{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.Rate>.main img{
+    width: 200px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Rate>.main >.P1{
+    font-family: 'Playfair-Display-Medium';
+    font-size: 38px;
+}
+
+.Rate>.main >.P2 .p3 .p4{
+    font-family: 'basetica-light';
+    font-size: 38px;
+}

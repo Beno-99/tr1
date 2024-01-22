@@ -1,0 +1,65 @@
+.main{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto ;
+    margin-right:auto ;
+    margin-top: 35px;
+    width: 700px;
+    height: auto;
+    padding: 0px;
+    
+}
+.main>.first{
+    width: auto;
+    display: block;
+    text-align: center;
+    color: white;
+    font-family: 'basetica-medium';
+}
+
+.main>.second{
+    width: auto;
+    display: block;
+    text-align: center;
+    color: white;
+    font-family: 'Playfair-Display-Medium';
+    font-size: 72px;
+}
+
+.main>.second>em{
+    font-family: 'basetica-light';
+}
+
+/* tablet viewport */
+@media screen and ( max-width: 768px) {
+    .main{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto ;
+        margin-right:auto ;
+        margin-top: 50px;
+        width: auto;
+        height: auto;
+        padding: 0px;
+    }
+    .main>.first{
+        width: auto;
+        display: block;
+        text-align: center;
+        color: white;
+        font-family: 'basetica-medium';
+    }
+    .main>.second{
+        width: auto;
+        display: block;
+        text-align: center;
+        color: white;
+        font-family: 'Playfair-Display-Medium';
+        font-size: 40px;
+    }
+    
+
+}
+    
